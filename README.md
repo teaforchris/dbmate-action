@@ -27,7 +27,7 @@ Uses the default command `up` and does not check in the database schema.
 ...
 steps:
   - name: "Run migrations"
-    uses: actions/dbmate-action@v1.15
+    uses: dwin/dbmate-action@v1.15
     with:
       command: 'up'
     env:
@@ -45,7 +45,7 @@ steps:
 ...
 steps:
   - name: "Run migrations"
-    uses: actions/dbmate-action@v1.15
+    uses: dwin/dbmate-action@v1.15
     with:
       command: 'up'
     env:
